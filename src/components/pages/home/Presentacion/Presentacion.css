@@ -1,0 +1,18 @@
+.pres{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pres-divs{
+    width: 60%;
+}
+
+.pres>h1{
+    font-size: 4rem;
+}

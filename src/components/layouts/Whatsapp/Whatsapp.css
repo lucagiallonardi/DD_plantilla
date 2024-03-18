@@ -1,0 +1,72 @@
+.wsp{
+    width: 80px;
+    height: 80px;
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+    display: flex;
+    margin-top: 40%;
+    margin-left: 3%;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    opacity: .8;
+}
+
+.whatsapp{
+    color: #fff;
+    font-size: 50px;
+    
+}
+
+.iconos{
+  width: 80px;
+  height: 80px;
+  background-color: #000000;
+  text-align: center;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid #000000;
+  
+}
+
+.whatsapp{  
+    position: relative;
+    color: #fff;
+    transition: .5s;
+    z-index: 3;
+  }
+
+.iconos:hover .whatsapp{
+    transform: rotateY(360deg);
+    z-index: 3;
+}
+
+.wsp:hover{
+    cursor: pointer;
+    opacity: 1;
+}
+
+.iconos:before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #f00;
+    transition: .5s;
+    z-index: 2;
+  }
+
+  .iconos:hover:before {
+    top: 0;
+  }
+
+  .icono-w:before{
+    background: rgb(54,251,80);
+    background: radial-gradient(circle, rgba(54,251,80,1) 0%, rgba(25,150,48,1) 86%);
+  }

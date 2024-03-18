@@ -1,0 +1,72 @@
+.solDiv{
+    width: 100%;
+    height: 160vh;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+.sol-title{
+    font-size: 4rem;
+    padding-top: 3rem;
+}
+
+.solutionsDivs{
+    padding-top: 1rem;
+    width: 60%;
+}
+
+.elements{
+    display: flex;
+    margin-top: 2rem;
+}
+
+.element-solution{
+    margin: 1rem;   
+    border-right: 3px solid rgb(175, 173, 173);
+    border-left: 3px solid rgb(175, 173, 173);
+    padding-left: 4px;
+    padding-right: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sol-ico{
+    background-color: rgb(175, 173, 173);
+    width: 100%;
+    height: 40px;
+}
+
+.element-solution>h5{
+    text-align: center;
+    width: 80%;
+    border-bottom: 2px solid rgb(175, 173, 173);
+    padding-bottom: 1rem;
+}
+
+.element-solution>h3{
+    padding-top: .5rem;
+}
+
+.element-solution>p{
+    padding-top: 2rem;
+    width: 80%;
+    text-align: start;
+    padding-bottom: 2rem;
+    border-bottom: 2px solid rgb(175, 173, 173);
+}
+
+.solut-btn{
+    border-radius: 0;
+    font-size: 1.5rem;
+    width: 20rem;
+    height: 5rem;
+    margin-top: 2rem;
+}
+
+
+.element-solution>h5{
+    font-size: 1rem;
+}

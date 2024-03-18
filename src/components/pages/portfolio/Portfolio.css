@@ -1,0 +1,93 @@
+@import url(//db.onlinewebfonts.com/c/eceba41a00b4b94ea2965371c8dda96c?family=Bernard+MT+Condensed);
+
+.portport{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: violet;
+    
+}
+
+.resto{
+    position: relative;
+    width: 100vw;
+}
+
+.resto>h1{
+    position: absolute;
+    font-family: Bernard MT Condensed;
+    font-size: 8em;
+}
+
+.resto>h1:nth-child(1){
+    color: #75086c;
+}
+
+.resto>h1:nth-child(2){
+    color: #fff;
+    clip-path: polygon(0 66%, 3% 56%, 8% 49%, 13% 46%, 17% 48%, 21% 55%, 25% 66%, 30% 67%, 34% 66%, 37% 58%, 41% 49%, 45% 48%, 49% 49%, 52% 54%, 55% 62%, 59% 66%, 64% 66%, 66% 64%, 71% 55%, 75% 50%, 81% 46%, 85% 48%, 93% 54%, 100% 63%, 100% 100%, 0% 100%);    
+}
+
+.anim{
+    animation: animated 3s ease-in-out;
+}
+
+@keyframes animated{
+    0%{
+        clip-path: polygon(0 81%, 4% 84%, 7% 91%, 10% 94%, 14% 94%, 18% 85%, 24% 80%, 28% 78%, 33% 80%, 35% 86%, 39% 93%, 43% 95%, 46% 94%, 50% 87%, 53% 81%, 57% 76%, 62% 77%, 68% 83%, 70% 90%, 74% 93%, 79% 93%, 86% 88%, 93% 82%, 100% 77%, 100% 100%, 0% 100%);
+    }
+    30%{
+        clip-path: polygon(0 88%, 4% 78%, 8% 71%, 12% 69%, 15% 71%, 19% 77%, 24% 84%, 28% 85%, 32% 83%, 36% 76%, 39% 68%, 45% 66%, 49% 69%, 52% 74%, 54% 79%, 60% 81%, 63% 80%, 67% 74%, 71% 68%, 75% 65%, 80% 68%, 88% 79%, 94% 80%, 100% 75%, 100% 100%, 0% 100%);
+    }
+    60%{
+        clip-path: polygon(0 60%, 2% 68%, 7% 74%, 10% 75%, 15% 71%, 18% 66%, 23% 57%, 27% 55%, 31% 56%, 34% 59%, 39% 64%, 41% 69%, 46% 71%, 51% 68%, 55% 62%, 60% 56%, 65% 55%, 69% 56%, 73% 63%, 76% 72%, 81% 76%, 88% 72%, 94% 65%, 100% 58%, 100% 100%, 0% 100%);
+    }
+    100%{
+        clip-path: polygon(0 66%, 3% 56%, 8% 49%, 13% 46%, 17% 48%, 21% 55%, 25% 66%, 30% 67%, 34% 66%, 37% 58%, 41% 49%, 45% 48%, 49% 49%, 52% 54%, 55% 62%, 59% 66%, 64% 66%, 66% 64%, 71% 55%, 75% 50%, 81% 46%, 85% 48%, 93% 54%, 100% 63%, 100% 100%, 0% 100%);
+    }
+}
+
+
+.containerPortfolioDiv{
+    display: flex;
+    height: 100vh;
+}
+
+.textPort{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.itemPort{
+    font-family: Bernard MT Condensed;
+    padding-left: 1rem;
+    width: 120%;
+    height: 100%;
+    color: transparent;
+    z-index: -1;
+}
+
+
+.itemPortAnimado{
+    animation-duration: 2s;
+    animation-name: item-animate;
+    background: violet;
+    clip-path: polygon(0 0, 91% 0, 100% 100%, 0 100%);
+    color: #000;
+}
+
+@keyframes item-animate{
+    0%{
+        clip-path: polygon(0 0, 0 0, 0 100%, 0 100%);
+        transition: clip-path;
+    }
+    100%{
+        clip-path: polygon(0 0, 91% 0, 100% 100%, 0 100%);
+    }
+}
+
+.resto{
+    height: 100vh;
+}

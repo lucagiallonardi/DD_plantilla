@@ -1,0 +1,98 @@
+.dWebTiendasDiv{
+    padding-top: 4rem;
+    width: 100%;
+    height: 160vh;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dWebTiendas-title{
+    padding: 2rem;
+    font-size: 5rem;
+}
+
+.dWebTiendasDivs>p{
+    font-size: 1.5rem;
+}
+
+.dWebTiendasDivs{
+    width: 60%;
+}
+
+.elements-dWebTiendas{
+    display: flex;
+    margin-top: 3rem;
+}
+
+.element-dWebTiendas{
+    margin: 1rem;   
+    border-right: 3px solid rgb(175, 173, 173);
+    border-left: 3px solid rgb(175, 173, 173);
+    padding-left: 4px;
+    padding-right: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.dWebTiendas-ico{
+    background-color: rgb(175, 173, 173);
+    width: 100%;
+    height: 40px;
+}
+
+
+.element-dWebTiendas>h5{
+    text-align: center;
+    width: 80%;
+    border-bottom: 2px solid rgb(175, 173, 173);
+    padding-bottom: 1rem;
+}
+
+.element-dWebTiendas>h3{
+    padding-top: .5rem;
+}
+
+.element-dWebTiendas>p{
+    padding-top: 2rem;
+    width: 80%;
+    text-align: start;
+    padding-bottom: 2rem;
+    border-bottom: 2px solid rgb(175, 173, 173);
+}
+
+.dWebTiendas-btn{
+    border-radius: 0;
+    font-size: 1rem;
+    width: 8rem;
+    height: 3rem;
+    margin-top: 2rem;
+}
+
+
+.dWebTiendaschange-btn{
+    margin-top: 5rem;
+    width: 15rem;
+    height: 5rem;
+    font-size: 1.5rem;
+    border-radius: 0;
+    margin-left: 1rem;
+}
+
+.dWebTiendas-about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.dWebTiendas-about>h2{
+margin-top: 3rem;
+}
+
+.dWebTiendas-about>p{
+    width: 70%;
+    margin-top: 1rem;
+}

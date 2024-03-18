@@ -1,0 +1,96 @@
+.dGraficoImpresosDiv{
+    padding-top: 4rem;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dGraficoImpresos-title{
+    padding-top: 2rem;
+    font-size: 5rem;
+}
+
+.dGraficoImpresosDivs>p{
+    font-size: 1.5rem;
+}
+
+.dGraficoImpresosDivs{
+    width: 60%;
+}
+
+.elements-dGraficoImpresos{
+    display: flex;
+    margin-top: 3rem;
+}
+
+.element-dGraficoImpresos{
+    margin: 1rem;   
+    border-right: 3px solid rgb(175, 173, 173);
+    border-left: 3px solid rgb(175, 173, 173);
+    padding-left: 4px;
+    padding-right: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.dGraficoImpresos-ico{
+    background-color: rgb(175, 173, 173);
+    width: 100%;
+    height: 40px;
+}
+
+
+.element-dGraficoImpresos>h5{
+    text-align: center;
+    width: 80%;
+    border-bottom: 2px solid rgb(175, 173, 173);
+    padding-bottom: 1rem;
+}
+
+.element-dGraficoImpresos>h3{
+    padding-top: .5rem;
+}
+
+.element-dGraficoImpresos>p{
+    padding-top: 2rem;
+    width: 80%;
+    text-align: start;
+    padding-bottom: 2rem;
+    border-bottom: 2px solid rgb(175, 173, 173);
+}
+
+.dGraficoImpresos-btn{
+    border-radius: 0;
+    font-size: 1rem;
+    width: 8rem;
+    height: 3rem;
+    margin-top: 2rem;
+}
+
+.dGraficoImpresoschange-btn{
+    margin-top: 5rem;
+    width: 15rem;
+    height: 5rem;
+    font-size: 1.5rem;
+    border-radius: 0;
+    margin-left: 1rem;
+}
+
+.dGraficoImpresos-about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.dGraficoImpresos-about>h2{
+margin-top: 3rem;
+}
+
+.dGraficoImpresos-about>p{
+    width: 70%;
+    margin-top: 1rem;
+}
