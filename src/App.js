@@ -11,6 +11,7 @@ import ContactW from './components/pages/contact/ContactW/ContactW';
 import Dgrafico from './components/pages/dgrafico/Dgrafico/Dgrafico';
 import Dweb from './components/pages/dweb/Dweb/Dweb';
 import DgraficoImpresos from './components/pages/dgrafico/DgraficoImpresos/DgraficoImpresos';
+import ContactAll from './components/pages/contact/ContactAll/ContactAll';
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
       <Route path="/portfolio" element={<Portfolio/>}></Route>
       <Route path="/dgrafico" element={<Dgrafico/>}></Route>
       <Route path="/dweb" element={<Dweb/>}></Route>
+      <Route path="/contactall" element={<ContactAll/>}></Route>
       </Routes>
     </Router>
     </>

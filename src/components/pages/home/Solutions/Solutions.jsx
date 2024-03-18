@@ -16,7 +16,7 @@ const Solutions = () => {
             <div className="element-solution"><div className="sol-ico"></div><h3>Diseño Web</h3><h5>Pagina web | Tienda online</h5><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus et eius beatae natus iure soluta maxime ipsa, consequuntur, velit aspernatur, vero animi earum in aliquam exercitationem consequatur molestiae distinctio voluptatibus?Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur nemo in hic veniam error voluptatum neque commodi architecto accusantium nobis perspiciatis suscipit, odio repellat aspernatur animi beatae deserunt dolorem! Impedit.</p></div>
             
             </div>
-            <Link to={"/contactg"} className="link"><button type="button" className="btn btn-dark solut-btn">→ Solicitar presupuesto</button></Link>
+            <Link to={"/contactall"} className="link"><button type="button" className="btn btn-dark solut-btn">→ Solicitar presupuesto</button></Link>
         </div>
     );
 };

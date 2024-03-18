@@ -7,7 +7,7 @@ const NavBar = (props) => {
         <div className="nav0">
             <nav className="navbar navbar-expand-lg ">
   <div className="container-fluid">
-    <Link to={"/"} className='link'><div className="navbar-brand">Navbar</div></Link>
+    <Link to={"/"} className='link'><div className="navbar-brand">Digital Design</div></Link>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
@@ -29,7 +29,7 @@ const NavBar = (props) => {
           <Link to={"/portfolio"} className='link'><div className="nav-link active" aria-current="page" >Portfolio</div></Link>
         </li>
       </ul>
-      <Link to={"/contactg"} className='link contact-btn'><button type="button" className="btn btn-dark btnav">Contactarnos</button></Link>
+      <Link to={"/contactall"} className='link contact-btn'><button type="button" className="btn btn-dark btnav">Contactarnos</button></Link>
     </div>
   </div>
 </nav>
