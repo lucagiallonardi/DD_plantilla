@@ -7,7 +7,7 @@ const NavBar = (props) => {
         <div className="nav0">
             <nav className="navbar navbar-expand-lg ">
   <div className="container-fluid">
-    <Link to={"/"} className='link'><div className="navbar-brand">Digital Design</div></Link>
+    <Link to={"/"} className='link'><div className="logo navbar-brand">Digital Design</div></Link>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
